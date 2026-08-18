@@ -1,0 +1,1412 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta charset="utf-8"> 
+  <title>Medical Imaging Therapy Tracker - database to empower decision-makers</title> 
+  <link rel="shortcut icon" href="assets/images/favicon.png"> 
+  <meta name="description" content="The Medical Imaging Database is a comprehensive and indispensable resource designed to offer a complete understanding of the medical imaging industry. "> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <script src="assets/js/jquery-1.7.1.js"></script> 
+  <script>hsjQuery = window['jQuery'];</script> 
+  <meta property="og:description" content="The Medical Imaging Database is a comprehensive and indispensable resource designed to offer a complete understanding of the medical imaging industry. "> 
+  <meta property="og:title" content="Medical Imaging Therapy Tracker - database to empower decision-makers"> 
+  <meta name="twitter:description" content="The Medical Imaging Database is a comprehensive and indispensable resource designed to offer a complete understanding of the medical imaging industry. "> 
+  <meta name="twitter:title" content="Medical Imaging Therapy Tracker - database to empower decision-makers"> 
+  <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style> 
+  <link rel="stylesheet" href="assets/css/template-layout.min.css"> 
+  <link rel="stylesheet" href="assets/css/template-main.min.css"> 
+  <link rel="stylesheet" href="assets/css/template-theme-overrides.css"> 
+  <style>.header .menu-section,.header .cartcurr,.header .searchmobile,.mobile-nav-toggle,.mobile-nav,.mobile-nav-overly{display:none!important}.local-form{width:100%;min-height:580px;border:0}#hs_cos_wrapper_widget_1757426464394_{display:flex;align-items:center;justify-content:center;min-height:580px}.medical-imaging-demo-button{display:inline-block;background-color:#1cb3a8;color:#fff;font:20px arial,helvetica,sans-serif;padding:12px 30px;text-align:center;text-decoration:none}.medical-imaging-demo-button:hover{background-color:#ccc;color:#000}</style>
+  <style>
+      #hs-button_widget_1763055493829 {
+        
+          
+          display: inline-block;
+        
+        background-color: rgba(24, 69, 75,1.0);
+        color: #FFFFFF;
+        
+        font-size: 20px;
+        
+        font-family: arial, helvetica, sans-serif; font-style: normal; font-weight: normal; text-decoration: none;
+        
+          padding-top: px;
+          padding-bottom: px;
+        
+        
+          padding-left: px;
+          padding-right: px;
+        
+      }
+      #hs-button_widget_1763055493829:hover {
+        background-color: rgba(204, 204, 204,1.0);
+        color: rgba(0, 0, 0,1.0);
+        
+          padding-top: px;
+          padding-bottom: px;
+        
+        
+          padding-left: px;
+          padding-right: px;
+        
+
+      }
+    </style> 
+  <!-- Editor Styles --> 
+  <style id="hs_editor_style" type="text/css">
+#hs_cos_wrapper_widget_1737448062410  { color: #FFFFFF !important; display: block !important; font-family: Arial, sans-serif !important; font-size: 26px !important; line-height: 17px !important; text-align: center !important }
+#hs_cos_wrapper_widget_1737448062410  p , #hs_cos_wrapper_widget_1737448062410  li , #hs_cos_wrapper_widget_1737448062410  span , #hs_cos_wrapper_widget_1737448062410  label , #hs_cos_wrapper_widget_1737448062410  h1 , #hs_cos_wrapper_widget_1737448062410  h2 , #hs_cos_wrapper_widget_1737448062410  h3 , #hs_cos_wrapper_widget_1737448062410  h4 , #hs_cos_wrapper_widget_1737448062410  h5 , #hs_cos_wrapper_widget_1737448062410  h6  { color: #FFFFFF !important; font-family: Arial, sans-serif !important; font-size: 26px !important; line-height: 17px !important }
+#hs_cos_wrapper_module_1763054811214  { color: #FFFFFF !important; display: block !important; font-family: Arial, sans-serif !important; font-size: 26px !important; line-height: 17px !important; text-align: center !important }
+#hs_cos_wrapper_module_1763054811214  p , #hs_cos_wrapper_module_1763054811214  li , #hs_cos_wrapper_module_1763054811214  span , #hs_cos_wrapper_module_1763054811214  label , #hs_cos_wrapper_module_1763054811214  h1 , #hs_cos_wrapper_module_1763054811214  h2 , #hs_cos_wrapper_module_1763054811214  h3 , #hs_cos_wrapper_module_1763054811214  h4 , #hs_cos_wrapper_module_1763054811214  h5 , #hs_cos_wrapper_module_1763054811214  h6  { color: #FFFFFF !important; font-family: Arial, sans-serif !important; font-size: 26px !important; line-height: 17px !important }
+#hs_cos_wrapper_module_17374486879004  { color: #FFFFFF !important; display: block !important; font-family: Arial, sans-serif !important; font-size: 26px !important; font-weight: bold !important; line-height: 17px !important; text-align: center !important }
+#hs_cos_wrapper_module_17374486879004  p , #hs_cos_wrapper_module_17374486879004  li , #hs_cos_wrapper_module_17374486879004  span , #hs_cos_wrapper_module_17374486879004  label , #hs_cos_wrapper_module_17374486879004  h1 , #hs_cos_wrapper_module_17374486879004  h2 , #hs_cos_wrapper_module_17374486879004  h3 , #hs_cos_wrapper_module_17374486879004  h4 , #hs_cos_wrapper_module_17374486879004  h5 , #hs_cos_wrapper_module_17374486879004  h6  { color: #FFFFFF !important; font-family: Arial, sans-serif !important; font-size: 26px !important; font-weight: bold !important; line-height: 17px !important }
+#hs_cos_wrapper_module_1737540330833  { color: #FFFFFF !important; display: block !important; font-family: Arial, sans-serif !important; font-size: 26px !important; font-weight: bold !important; line-height: 17px !important; text-align: center !important }
+#hs_cos_wrapper_module_1737540330833  p , #hs_cos_wrapper_module_1737540330833  li , #hs_cos_wrapper_module_1737540330833  span , #hs_cos_wrapper_module_1737540330833  label , #hs_cos_wrapper_module_1737540330833  h1 , #hs_cos_wrapper_module_1737540330833  h2 , #hs_cos_wrapper_module_1737540330833  h3 , #hs_cos_wrapper_module_1737540330833  h4 , #hs_cos_wrapper_module_1737540330833  h5 , #hs_cos_wrapper_module_1737540330833  h6  { color: #FFFFFF !important; font-family: Arial, sans-serif !important; font-size: 26px !important; font-weight: bold !important; line-height: 17px !important }
+#hs_cos_wrapper_widget_1763055388461  { border-radius: 3px !important; border-style: solid !important; border-width: 3px !important; color: #18454b !important; display: block !important; font-family: Arial, sans-serif !important; font-size: 30px !important; font-weight: bold !important; text-align: center !important }
+#hs_cos_wrapper_widget_1763055388461  p , #hs_cos_wrapper_widget_1763055388461  li , #hs_cos_wrapper_widget_1763055388461  span , #hs_cos_wrapper_widget_1763055388461  label , #hs_cos_wrapper_widget_1763055388461  h1 , #hs_cos_wrapper_widget_1763055388461  h2 , #hs_cos_wrapper_widget_1763055388461  h3 , #hs_cos_wrapper_widget_1763055388461  h4 , #hs_cos_wrapper_widget_1763055388461  h5 , #hs_cos_wrapper_widget_1763055388461  h6  { color: #18454b !important; font-family: Arial, sans-serif !important; font-size: 30px !important; font-weight: bold !important }
+#hs_cos_wrapper_widget_1737456656665  { color: #18454b !important; display: block !important; font-family: Arial, sans-serif !important; font-size: 18px !important; font-weight: bold !important; text-align: center !important }
+#hs_cos_wrapper_widget_1737456656665  p , #hs_cos_wrapper_widget_1737456656665  li , #hs_cos_wrapper_widget_1737456656665  span , #hs_cos_wrapper_widget_1737456656665  label , #hs_cos_wrapper_widget_1737456656665  h1 , #hs_cos_wrapper_widget_1737456656665  h2 , #hs_cos_wrapper_widget_1737456656665  h3 , #hs_cos_wrapper_widget_1737456656665  h4 , #hs_cos_wrapper_widget_1737456656665  h5 , #hs_cos_wrapper_widget_1737456656665  h6  { color: #18454b !important; font-family: Arial, sans-serif !important; font-size: 18px !important; font-weight: bold !important }
+#hs_cos_wrapper_widget_1737448062410  { color: #FFFFFF !important; display: block !important; font-family: Arial, sans-serif !important; font-size: 26px !important; line-height: 17px !important; text-align: center !important }
+#hs_cos_wrapper_widget_1737448062410  p , #hs_cos_wrapper_widget_1737448062410  li , #hs_cos_wrapper_widget_1737448062410  span , #hs_cos_wrapper_widget_1737448062410  label , #hs_cos_wrapper_widget_1737448062410  h1 , #hs_cos_wrapper_widget_1737448062410  h2 , #hs_cos_wrapper_widget_1737448062410  h3 , #hs_cos_wrapper_widget_1737448062410  h4 , #hs_cos_wrapper_widget_1737448062410  h5 , #hs_cos_wrapper_widget_1737448062410  h6  { color: #FFFFFF !important; font-family: Arial, sans-serif !important; font-size: 26px !important; line-height: 17px !important }
+#hs_cos_wrapper_module_1763054811214  { color: #FFFFFF !important; display: block !important; font-family: Arial, sans-serif !important; font-size: 26px !important; line-height: 17px !important; text-align: center !important }
+#hs_cos_wrapper_module_1763054811214  p , #hs_cos_wrapper_module_1763054811214  li , #hs_cos_wrapper_module_1763054811214  span , #hs_cos_wrapper_module_1763054811214  label , #hs_cos_wrapper_module_1763054811214  h1 , #hs_cos_wrapper_module_1763054811214  h2 , #hs_cos_wrapper_module_1763054811214  h3 , #hs_cos_wrapper_module_1763054811214  h4 , #hs_cos_wrapper_module_1763054811214  h5 , #hs_cos_wrapper_module_1763054811214  h6  { color: #FFFFFF !important; font-family: Arial, sans-serif !important; font-size: 26px !important; line-height: 17px !important }
+#hs_cos_wrapper_module_17374486879004  { color: #FFFFFF !important; display: block !important; font-family: Arial, sans-serif !important; font-size: 26px !important; font-weight: bold !important; line-height: 17px !important; text-align: center !important }
+#hs_cos_wrapper_module_17374486879004  p , #hs_cos_wrapper_module_17374486879004  li , #hs_cos_wrapper_module_17374486879004  span , #hs_cos_wrapper_module_17374486879004  label , #hs_cos_wrapper_module_17374486879004  h1 , #hs_cos_wrapper_module_17374486879004  h2 , #hs_cos_wrapper_module_17374486879004  h3 , #hs_cos_wrapper_module_17374486879004  h4 , #hs_cos_wrapper_module_17374486879004  h5 , #hs_cos_wrapper_module_17374486879004  h6  { color: #FFFFFF !important; font-family: Arial, sans-serif !important; font-size: 26px !important; font-weight: bold !important; line-height: 17px !important }
+#hs_cos_wrapper_module_1737540330833  { color: #FFFFFF !important; display: block !important; font-family: Arial, sans-serif !important; font-size: 26px !important; font-weight: bold !important; line-height: 17px !important; text-align: center !important }
+#hs_cos_wrapper_module_1737540330833  p , #hs_cos_wrapper_module_1737540330833  li , #hs_cos_wrapper_module_1737540330833  span , #hs_cos_wrapper_module_1737540330833  label , #hs_cos_wrapper_module_1737540330833  h1 , #hs_cos_wrapper_module_1737540330833  h2 , #hs_cos_wrapper_module_1737540330833  h3 , #hs_cos_wrapper_module_1737540330833  h4 , #hs_cos_wrapper_module_1737540330833  h5 , #hs_cos_wrapper_module_1737540330833  h6  { color: #FFFFFF !important; font-family: Arial, sans-serif !important; font-size: 26px !important; font-weight: bold !important; line-height: 17px !important }
+#hs_cos_wrapper_widget_1763055388461  { border-radius: 3px !important; border-style: solid !important; border-width: 3px !important; color: #18454b !important; display: block !important; font-family: Arial, sans-serif !important; font-size: 30px !important; font-weight: bold !important; text-align: center !important }
+#hs_cos_wrapper_widget_1763055388461  p , #hs_cos_wrapper_widget_1763055388461  li , #hs_cos_wrapper_widget_1763055388461  span , #hs_cos_wrapper_widget_1763055388461  label , #hs_cos_wrapper_widget_1763055388461  h1 , #hs_cos_wrapper_widget_1763055388461  h2 , #hs_cos_wrapper_widget_1763055388461  h3 , #hs_cos_wrapper_widget_1763055388461  h4 , #hs_cos_wrapper_widget_1763055388461  h5 , #hs_cos_wrapper_widget_1763055388461  h6  { color: #18454b !important; font-family: Arial, sans-serif !important; font-size: 30px !important; font-weight: bold !important }
+#hs_cos_wrapper_widget_1737456656665  { color: #18454b !important; display: block !important; font-family: Arial, sans-serif !important; font-size: 18px !important; font-weight: bold !important; text-align: center !important }
+#hs_cos_wrapper_widget_1737456656665  p , #hs_cos_wrapper_widget_1737456656665  li , #hs_cos_wrapper_widget_1737456656665  span , #hs_cos_wrapper_widget_1737456656665  label , #hs_cos_wrapper_widget_1737456656665  h1 , #hs_cos_wrapper_widget_1737456656665  h2 , #hs_cos_wrapper_widget_1737456656665  h3 , #hs_cos_wrapper_widget_1737456656665  h4 , #hs_cos_wrapper_widget_1737456656665  h5 , #hs_cos_wrapper_widget_1737456656665  h6  { color: #18454b !important; font-family: Arial, sans-serif !important; font-size: 18px !important; font-weight: bold !important }
+.dnd_area-row-2-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-4-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-8-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-9-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-10-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.dnd_area-row-13-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.widget_1763055742609-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: center !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+.widget_1763055742609-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+.widget_1763055835146-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: center !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+.widget_1763055835146-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+.widget_1763055868888-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: center !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+.widget_1763055868888-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+.widget_1763055950188-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: center !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+.widget_1763055950188-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+.widget_1763055493829-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: center !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+.widget_1763055493829-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+/* HubSpot Non-stacked Media Query Styles */
+@media (min-width:768px) {
+  .dnd_area-row-6-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .dnd_area-row-9-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .cell_17374483217682-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_17374483217682-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1763055835693-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1763055835693-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1763054925264-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1763054925264-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1737446407618-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .cell_1737446407618-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+}
+/* HubSpot Styles (default) */
+.dnd_area-row-0-padding {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+.dnd_area-row-0-background-layers {
+  background-image: linear-gradient(rgba(28, 179, 168, 1), rgba(28, 179, 168, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-2-padding {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+.dnd_area-row-3-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.dnd_area-row-4-padding {
+  padding-top: 25px !important;
+  padding-bottom: 10px !important;
+}
+.dnd_area-row-4-background-layers {
+  background-image: linear-gradient(rgba(28, 179, 168, 1), rgba(28, 179, 168, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-8-padding {
+  padding-top: 25px !important;
+  padding-bottom: 10px !important;
+}
+.dnd_area-row-8-background-layers {
+  background-image: linear-gradient(rgba(24, 69, 75, 1), rgba(24, 69, 75, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-9-padding {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+.dnd_area-row-10-padding {
+  padding-top: 25px !important;
+  padding-bottom: 10px !important;
+}
+.dnd_area-row-10-background-layers {
+  background-image: linear-gradient(rgba(28, 179, 168, 1), rgba(28, 179, 168, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-13-padding {
+  padding-top: 25px !important;
+  padding-bottom: 10px !important;
+}
+.dnd_area-row-13-background-layers {
+  background-image: linear-gradient(rgba(28, 179, 168, 1), rgba(28, 179, 168, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.dnd_area-row-17-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.dnd_area-row-17-background-layers {
+  background-image: linear-gradient(rgba(213, 245, 234, 1), rgba(213, 245, 234, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.cell_1763054925264-padding {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.cell_1737446407618-padding {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+</style> 
+  <!--  Added by GoogleAnalytics integration --> 
+  <script>
+var _hsp = window._hsp = window._hsp || [];
+_hsp.push(['addPrivacyConsentListener', function(consent) { if (consent.allowed || (consent.categories && consent.categories.analytics)) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create','UA-48860739-1','auto');
+  ga('send','pageview');
+}}]);
+</script> 
+  <!-- /Added by GoogleAnalytics integration --> 
+  <!--  Added by GoogleAnalytics4 integration --> 
+  <script>
+var _hsp = window._hsp = window._hsp || [];
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+var useGoogleConsentModeV2 = true;
+var waitForUpdateMillis = 1000;
+
+
+if (!window._hsGoogleConsentRunOnce) {
+  window._hsGoogleConsentRunOnce = true;
+
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'wait_for_update': waitForUpdateMillis
+  });
+
+  if (useGoogleConsentModeV2) {
+    _hsp.push(['useGoogleConsentModeV2'])
+  } else {
+    _hsp.push(['addPrivacyConsentListener', function(consent){
+      var hasAnalyticsConsent = consent && (consent.allowed || (consent.categories && consent.categories.analytics));
+      var hasAdsConsent = consent && (consent.allowed || (consent.categories && consent.categories.advertisement));
+
+      gtag('consent', 'update', {
+        'ad_storage': hasAdsConsent ? 'granted' : 'denied',
+        'analytics_storage': hasAnalyticsConsent ? 'granted' : 'denied',
+        'ad_user_data': hasAdsConsent ? 'granted' : 'denied',
+        'ad_personalization': hasAdsConsent ? 'granted' : 'denied'
+      });
+    }]);
+  }
+}
+
+gtag('js', new Date());
+gtag('set', 'developer_id.dZTQ1Zm', true);
+gtag('config', 'G-1XEWNK2HGD');
+</script> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1XEWNK2HGD"></script> 
+  <!-- /Added by GoogleAnalytics4 integration --> 
+  <link rel="canonical" href="../../../com/bisresearch/info/medical-imaging-therapy-tracker.html"> 
+  <meta property="og:image" content="assets/images/bis-logo-social.jpg"> 
+  <meta property="og:image:width" content="1200"> 
+  <meta property="og:image:height" content="1200"> 
+  <meta name="twitter:image" content="assets/images/bis-logo-social.jpg"> 
+  <meta property="og:url" content="https://info.bisresearch.com/medical-imaging-therapy-tracker"> 
+  <meta name="twitter:card" content="summary_large_image"> 
+  <meta http-equiv="content-language" content="en"> 
+  <meta name="generator" content="HubSpot">
+ </head> 
+ <body> 
+  <div class="body-wrapper   hs-content-id-185222221753 hs-landing-page hs-page "> 
+   <div data-global-resource-path="BISResearch_June2020/templates/partials/header.html">
+    <button type="button" class="mobile-nav-toggle d-lg-none"><i class="fa fa-bars"></i></button> 
+    <div class="header-main-wrappper"> 
+     <header class="header"> 
+      <div class="top-header"> 
+       <div class="header__container"> 
+        <div class="cms-row"> 
+         <div class="ph-no"> 
+          <i class="fa fa-phone">&nbsp;</i> +1-510-404-8135 
+         </div> 
+         <div class="mail"> 
+          <i class="fa fa-envelope-o" style="padding:0 10px;"></i>&nbsp; 
+          <a href="https://outlook.office.com/mail/deeplink/compose?to=hello%40bisresearch.com">hello@bisresearch.com</a> 
+         </div> 
+         <div class="headerbuttons"> 
+          <a class="btn btn-success " href="https://bisresearch.com/signin"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;Log In</a> 
+          <a class="btn btn-success " href="https://bisresearch.com/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20signup"><i class="fa fa-registered" aria-hidden="true"></i>&nbsp;Register</a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="bottom-header"> 
+       <div class="header__container"> 
+        <div class="cartcurr"> 
+         <ul class="social-share topbarcart"> 
+          <li onclick="if (!window.__cfRLUnblockHandlers) return false; opencart()" class="dropdown topcart"> <i class="fa fa-shopping-cart" title="cart"></i> </li> 
+         </ul>
+        </div> 
+        <div class="logo"> 
+         <div id="hs_cos_wrapper_header_logo" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-logo" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"> 
+          <span id="hs_cos_wrapper_header_logo_hs_logo_widget" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_logo" style="" data-hs-cos-general-type="widget" data-hs-cos-type="logo"><a href="https://bisresearch.com" id="hs-link-header_logo_hs_logo_widget" style="border-width:0px;border:0px;"><img src="assets/images/bis-logo.png" class="hs-image-widget " height="58" style="height: auto;width:90px;border-width:0px;border:0px;" width="90" alt="bis-logo" title="bis-logo"></a></span> 
+         </div> 
+        </div> 
+        <div class="menu-section"> 
+         <div class="custom-menu-primary"> 
+          <span id="hs_cos_wrapper_primary_menu" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu">
+           <div id="hs_menu_wrapper_primary_menu" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="191203115911" aria-label="Navigation Menu"> 
+            <ul role="menu"> 
+             <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://bisresearch.com/about-us" role="menuitem">About Us</a></li> 
+             <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="../../../com/bisresearch/info/index.html" aria-haspopup="true" aria-expanded="false" role="menuitem">Solutions</a> 
+              <ul role="menu" class="hs-menu-children-wrapper"> 
+               <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../../../com/bisresearch/info/primary-market-research-by-bisresearch.html" role="menuitem">Primary Research</a></li> 
+               <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../../../com/bisresearch/info/key-opinion-leader-interview-by-bisresearch.html" role="menuitem">Key Opinion Leader (KoL)</a></li> 
+               <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../../../com/bisresearch/info/voice-of-customer-survey-by-bisresearch.html" role="menuitem">Voice of Customer (VoC)</a></li> 
+               <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../../../com/bisresearch/info/in-depth-interview-by-bisresearch.html" role="menuitem">In-Depth Interview (IDI)</a></li> 
+               <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../../../com/bisresearch/info/focused-group-discussion-by-bisresearch.html" role="menuitem">Focus Group Discussion (FGD)</a></li> 
+              </ul></li> 
+             <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="../../../com/bisresearch/info/index.html" aria-haspopup="true" aria-expanded="false" role="menuitem">Industries</a> 
+              <ul role="menu" class="hs-menu-children-wrapper"> 
+               <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/advanced-materials-chemicals" role="menuitem">Advanced Materials, Chemicals &amp; Fuels</a> 
+                <ul role="menu" class="hs-menu-children-wrapper"> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/3d-printing" role="menuitem">3D Printing</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/advanced-electronics-materials" role="menuitem">Advanced Electronics Materials</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/advanced-fibers-composites" role="menuitem">Advanced Fibers and Composites</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/air-water-solid-waste-treatment" role="menuitem">Air, Water &amp; Solid Waste Treatment</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/construction-materials" role="menuitem">Construction Materials</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/coatings-adhesives-sealants-elastomers" role="menuitem">Coatings, Adhesives, Sealants &amp; Elastomers</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/high-performance-plastics" role="menuitem">High-Performance Plastics</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/next-generation-fuel-energy-solutions" role="menuitem">Next-Generation Fuel / Energy Storage Solutions</a></li> 
+                </ul></li> 
+               <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/space-aerospace" role="menuitem">Aerospace Market</a> 
+                <ul role="menu" class="hs-menu-children-wrapper"> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/aircraft-drones" role="menuitem">Aircrafts and Drones Market</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/spacetech" role="menuitem">SpaceTech Market</a></li> 
+                </ul></li> 
+               <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/agriculture" role="menuitem">Agriculture</a> 
+                <ul role="menu" class="hs-menu-children-wrapper"> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/agritech" role="menuitem">AgriTech</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/crop-protection" role="menuitem">Crop Protection / Agri-Inputs</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/livestock-production-systems" role="menuitem">Livestock Production Systems</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/new-farming-techniques" role="menuitem">New Farming Techniques</a></li> 
+                </ul></li> 
+               <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/automotive" role="menuitem">Automotive / Mobility</a> 
+                <ul role="menu" class="hs-menu-children-wrapper"> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/autonomous-vehicle" role="menuitem">Autonomous Vehicle</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/auto-parts-electronics" role="menuitem">Auto Parts / Electronics</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/connected-vehicle" role="menuitem">Connected Vehicle</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/electric-vehicle" role="menuitem">Electric Vehicle</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/shared-urban-mobility" role="menuitem">Shared / Urban Mobility</a></li> 
+                </ul></li> 
+               <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/healthcare-medical" role="menuitem">BIS Healthcare</a> 
+                <ul role="menu" class="hs-menu-children-wrapper"> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/digital-health" role="menuitem">Digital Health</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/life-sciences-biopharma" role="menuitem">Life Sciences &amp; Biopharma</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/medical-technologies" role="menuitem">MedTech</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/precision-medicine" role="menuitem">Precision Medicine</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/robotics-imaging" role="menuitem">Robotics &amp; Imaging</a></li> 
+                </ul></li> 
+               <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/defense-security" role="menuitem">Defense &amp; Security</a> 
+                <ul role="menu" class="hs-menu-children-wrapper"> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/biometrics-access-control" role="menuitem">Biometrics &amp; Access Control</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/military-electronics-tech" role="menuitem">Military Electronics &amp; Tech.</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/naval-defense" role="menuitem">Naval Defense</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/surveillance-cybersecurity" role="menuitem">Surveillance &amp; Cybersecurity</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/weapons-ammunition" role="menuitem">Weapons and Ammunition</a></li> 
+                </ul></li> 
+               <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/digital-technologies" role="menuitem">Digital Technologies</a> 
+                <ul role="menu" class="hs-menu-children-wrapper"> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/artificial-intelligence-ai-machine-learning-ml" role="menuitem">Artificial Intelligence (AI) / Machine Learning (ML)</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/extended-reality" role="menuitem">Extended Reality (XR)</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/digital-gaming" role="menuitem">Digital Gaming</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/blockchain" role="menuitem">Blockchain</a></li> 
+                </ul></li> 
+               <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/electronics-semiconductor" role="menuitem">Electronics &amp; Communication Technologies</a> 
+                <ul role="menu" class="hs-menu-children-wrapper"> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/next-generation-wireless-tech" role="menuitem">Next Generation Wireless Tech.</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/optoelectronics-photonics" role="menuitem">Optoelectronics / Photonics</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/sensors-semiconductors" role="menuitem">Sensors &amp; Semiconductors</a></li> 
+                </ul></li> 
+               <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/energy-and-power" role="menuitem">Energy &amp; Power</a> 
+                <ul role="menu" class="hs-menu-children-wrapper"> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/building-home-automation" role="menuitem">Building &amp; Home Automation</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/clean-and-renewable-energy" role="menuitem">Clean &amp; Renewable Energy</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/smart-energy" role="menuitem">Smart Energy</a></li> 
+                </ul></li> 
+               <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/foodtech" role="menuitem">FoodTech</a> 
+                <ul role="menu" class="hs-menu-children-wrapper"> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/innovative-foods" role="menuitem">Innovative Foods</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/food-manufacturing-and-supply-chain" role="menuitem">Food Manufacturing &amp; Supply Chain</a></li> 
+                </ul></li> 
+               <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/robotics-and-automation" role="menuitem">Robotics &amp; Automation</a> 
+                <ul role="menu" class="hs-menu-children-wrapper"> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/robotics" role="menuitem">Robotics</a></li> 
+                 <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/digital-manufacturing" role="menuitem">Digital Manufacturing</a></li> 
+                </ul></li> 
+               <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/industry-verticals/data-center" role="menuitem">Data Center Market</a></li> 
+              </ul></li> 
+             <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="../../../com/bisresearch/info/case-studies-by-bisresearch.html" role="menuitem">Case Studies</a></li> 
+             <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="../../../com/bisresearch/info/index.html" aria-haspopup="true" aria-expanded="false" role="menuitem">Resources</a> 
+              <ul role="menu" class="hs-menu-children-wrapper"> 
+               <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/insights" role="menuitem">Blog</a></li> 
+               <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/news" role="menuitem">News</a></li> 
+               <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/video-list" role="menuitem">Videos</a></li> 
+               <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/analyst-notes" role="menuitem">Analyst Notes</a></li> 
+               <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/white-papers.html" role="menuitem">White Papers</a></li> 
+               <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/webinars" role="menuitem">Webinars and Events</a></li> 
+               <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/podcast" role="menuitem">Podcast</a></li> 
+              </ul></li> 
+             <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://bisresearch.com/contact-us" role="menuitem">Contact Us</a></li> 
+            </ul> 
+           </div></span> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="searchmobile"> 
+       <form method="GET" role="form" id="search_formm" action="https://bisresearch.com/path/search" class="has-validation-callback"> 
+        <input type="text" name="lname" id="lname" value="" class="InputBGmobile" placeholder="Enter search query here"> 
+        <button type="submit" class="topsearchbtn"><i class="fa fa-search topsrc" aria-hidden="true"></i></button> 
+       </form> 
+      </div> 
+     </header> 
+    </div> 
+    <nav class="mobile-nav d-lg-none"> 
+     <table width="100%" class="mobileloginsignup"> 
+      <tbody>
+       <tr>
+        <td><a class="btn btn-info btn-xs btnmenu" href="https://bisresearch.com/signin">Login</a></td> 
+        <td><a class="btn btn-info btn-xs btnmenu" href="https://bisresearch.com/signup">Register</a></td>
+       </tr> 
+      </tbody>
+     </table> 
+     <div class="custom-menu-primary"> 
+      <span id="hs_cos_wrapper_mobile_menu" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu">
+       <div id="hs_menu_wrapper_mobile_menu" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="31166111512" aria-label="Navigation Menu"> 
+        <ul role="menu"> 
+         <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="../../../com/bisresearch/info/index.html" aria-haspopup="true" aria-expanded="false" role="menuitem">About Us</a> 
+          <ul role="menu" class="hs-menu-children-wrapper"> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/about-us" role="menuitem">About Us</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/our-team" role="menuitem">Our Team</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../../../com/bisresearch/info/clients.html" role="menuitem">Our Clients</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/mediacontact" role="menuitem">In The Media</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/pressrelease" role="menuitem">Press Release</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/research-methodology" role="menuitem">Research Methodology</a></li> 
+          </ul></li> 
+         <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="https://bisresearch.com/our-offerings" aria-haspopup="true" aria-expanded="false" role="menuitem">Our Offerings</a> 
+          <ul role="menu" class="hs-menu-children-wrapper"> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/market-research-reports" role="menuitem">Market Research Reports</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/our-offerings/custom-research" role="menuitem">Custom Research</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/our-offerings/subscriptions" role="menuitem">Subscriptions</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../../../com/bisresearch/info/market-entry-strategy.html" role="menuitem">Market Entry Strategy</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="../../../com/bisresearch/info/in-depth-interview-voc-kol.html" role="menuitem">Expert Interviews</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/our-offerings/extended-teams" role="menuitem">Extended Teams</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/our-offerings/other-research-offerings" role="menuitem">Other Offerings</a></li> 
+          </ul></li> 
+         <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="../../../com/bisresearch/info/index.html" aria-haspopup="true" aria-expanded="false" role="menuitem">Verticals</a> 
+          <ul role="menu" class="hs-menu-children-wrapper"> 
+           <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/advanced-materials-chemicals" role="menuitem">Advanced Materials, Chemicals &amp; Fuels</a> 
+            <ul role="menu" class="hs-menu-children-wrapper"> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/3d-printing" role="menuitem">3D Printing</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/advanced-electronics-materials" role="menuitem">Advanced Electronics Materials</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/advanced-fibers-composites" role="menuitem">Advanced Fibers and Composites</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/air-water-solid-waste-treatment" role="menuitem">Air, Water &amp; Solid Waste Treatment</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/construction-materials" role="menuitem">Construction Materials</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/coatings-adhesives-sealants-elastomers" role="menuitem">Coatings, Adhesives, Sealants &amp; Elastomers</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/high-performance-plastics" role="menuitem">High-Performance Plastics</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/next-generation-fuel-energy-solutions" role="menuitem">Next-Generation Fuel / Energy Storage Solutions</a></li> 
+            </ul></li> 
+           <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/space-aerospace" role="menuitem">Aerospace Market</a> 
+            <ul role="menu" class="hs-menu-children-wrapper"> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/aircraft-drones" role="menuitem">Aircrafts and Drones Market</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/spacetech" role="menuitem">SpaceTech Market</a></li> 
+            </ul></li> 
+           <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/agriculture" role="menuitem">Agriculture</a> 
+            <ul role="menu" class="hs-menu-children-wrapper"> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/agritech" role="menuitem">AgriTech</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/crop-protection" role="menuitem">Crop Protection / Agri-Inputs</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/livestock-production-systems" role="menuitem">Livestock Production Systems</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/new-farming-techniques" role="menuitem">New Farming Techniques</a></li> 
+            </ul></li> 
+           <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/automotive" role="menuitem">Automotive / Mobility</a> 
+            <ul role="menu" class="hs-menu-children-wrapper"> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/autonomous-vehicle" role="menuitem">Autonomous Vehicle</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/auto-parts-electronics" role="menuitem">Auto Parts / Electronics</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/connected-vehicle" role="menuitem">Connected Vehicle</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/electric-vehicle" role="menuitem">Electric Vehicle</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/shared-urban-mobility" role="menuitem">Shared / Urban Mobility</a></li> 
+            </ul></li> 
+           <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/healthcare-medical" role="menuitem">BIS Healthcare</a> 
+            <ul role="menu" class="hs-menu-children-wrapper"> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/digital-health" role="menuitem">Digital Health</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/life-sciences-biopharma" role="menuitem">Life Sciences &amp; Biopharma</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/medical-technologies" role="menuitem">MedTech</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/precision-medicine" role="menuitem">Precision Medicine</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/robotics-imaging" role="menuitem">Robotics &amp; Imaging</a></li> 
+            </ul></li> 
+           <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/defense-security" role="menuitem">Defense &amp; Security</a> 
+            <ul role="menu" class="hs-menu-children-wrapper"> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/biometrics-access-control" role="menuitem">Biometrics &amp; Access Control</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/military-electronics-tech" role="menuitem">Military Electronics &amp; Tech.</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/naval-defense" role="menuitem">Naval Defense</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/surveillance-cybersecurity" role="menuitem">Surveillance &amp; Cybersecurity</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/weapons-ammunition" role="menuitem">Weapons and Ammunition</a></li> 
+            </ul></li> 
+           <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/digital-technologies" role="menuitem">Digital Technologies</a> 
+            <ul role="menu" class="hs-menu-children-wrapper"> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/artificial-intelligence-ai-machine-learning-ml" role="menuitem">Artificial Intelligence (AI) / Machine Learning (ML)</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/extended-reality" role="menuitem">Extended Reality (XR)</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/digital-gaming" role="menuitem">Digital Gaming</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/blockchain" role="menuitem">Blockchain</a></li> 
+            </ul></li> 
+           <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/electronics-semiconductor" role="menuitem">Electronics &amp; Communication Technologies</a> 
+            <ul role="menu" class="hs-menu-children-wrapper"> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/next-generation-wireless-tech" role="menuitem">Next Generation Wireless Tech.</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/optoelectronics-photonics" role="menuitem">Optoelectronics / Photonics</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/sensors-semiconductors" role="menuitem">Sensors &amp; Semiconductors</a></li> 
+            </ul></li> 
+           <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/energy-and-power" role="menuitem">Energy &amp; Power</a> 
+            <ul role="menu" class="hs-menu-children-wrapper"> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/building-home-automation" role="menuitem">Building &amp; Home Automation</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/clean-and-renewable-energy" role="menuitem">Clean &amp; Renewable Energy</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/smart-energy" role="menuitem">Smart Energy</a></li> 
+            </ul></li> 
+           <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/foodtech" role="menuitem">FoodTech</a> 
+            <ul role="menu" class="hs-menu-children-wrapper"> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/innovative-foods" role="menuitem">Innovative Foods</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/food-manufacturing-and-supply-chain" role="menuitem">Food Manufacturing &amp; Supply Chain</a></li> 
+            </ul></li> 
+           <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://bisresearch.com/industry-verticals/robotics-and-automation" role="menuitem">Robotics &amp; Automation</a> 
+            <ul role="menu" class="hs-menu-children-wrapper"> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/robotics" role="menuitem">Robotics</a></li> 
+             <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://bisresearch.com/industry-verticals/digital-manufacturing" role="menuitem">Digital Manufacturing</a></li> 
+            </ul></li> 
+          </ul></li> 
+         <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="../../../com/bisresearch/info/index.html" aria-haspopup="true" aria-expanded="false" role="menuitem">Resources</a> 
+          <ul role="menu" class="hs-menu-children-wrapper"> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/insights" role="menuitem">Blog</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/news" role="menuitem">News</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/video-list" role="menuitem">Videos</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/analyst-notes" role="menuitem">Analyst Notes</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/white-papers.html" role="menuitem">White Papers</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/webinars" role="menuitem">Webinars and Events</a></li> 
+           <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/podcast" role="menuitem">Podcast</a></li> 
+          </ul></li> 
+         <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://bisresearch.com/contact-us" role="menuitem">Contact Us</a></li> 
+        </ul> 
+       </div></span> 
+     </div> 
+    </nav> 
+    <div class="mobile-nav-overly"></div> 
+    <script>     (function(h,o,t,j,a,r){         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};         h._hjSettings={hjid:6559499,hjsv:6};         a=o.getElementsByTagName('head')[0];         r=o.createElement('script');r.async=1;         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;         a.appendChild(r);     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv='); </script>
+   </div> 
+   <main class="body-container-wrapper"> 
+    <div class="container-fluid body-container body-container__website"> 
+     <div class="row-fluid-wrapper"> 
+      <div class="row-fluid"> 
+       <div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12"> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 dnd_area-row-0-background-color dnd_area-row-0-background-layers dnd-section dnd_area-row-0-padding"> 
+         <div class="row-fluid "> 
+          <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+           <div id="hs_cos_wrapper_widget_1737445056435" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+            <span id="hs_cos_wrapper_widget_1737445056435_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><h1 style="text-align: center;"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 36px; color: #ffffff;"><strong>Medical Imaging Therapy Tracker</strong></span></h1> <p style="text-align: center;"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: #ffffff;"><strong>Transform Your Market Strategy with Precision Intelligence</strong></span></p></span>
+           </div> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-section"> 
+         <div class="row-fluid "> 
+          <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-3 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_dnd_area-module-3" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_dnd_area-module-3_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="font-size: 14px; text-align: justify; line-height: 1.5;"><span style="font-family: Arial, Helvetica, sans-serif;">The Medical Imaging Database is a comprehensive and indispensable resource that provides a thorough understanding of the medical imaging industry. Medical imaging is a vital part of patient care and is a cornerstone of contemporary healthcare. It is necessary for precise diagnosis, efficient treatment planning, and continuous disease monitoring.&nbsp;&nbsp;</span></p> <p style="font-size: 14px; text-align: justify; line-height: 1.5;"><span style="font-family: Arial, Helvetica, sans-serif;">This database provides in-depth information on the most recent imaging technologies, pricing trends, market dynamics, competitive positioning, and industry developments. It also provides a thorough analysis of the installed base of medical imaging equipment, allowing stakeholders to evaluate market penetration and current capacities.&nbsp;&nbsp;</span></p> <p style="font-size: 14px; text-align: justify; line-height: 1.5;"><span style="font-family: Arial, Helvetica, sans-serif;">The Medical Imaging Database, designed for manufacturers, healthcare providers, and industry stakeholders, is an effective tool for making data-driven, well-informed decisions. In a market that is fiercely competitive and changing quickly, it promotes innovation, strengthens competitive intelligence, and aids in strategic planning. This database gives users the ability to confidently and precisely navigate the medical imaging landscape, whether they are looking for growth opportunities, improving operational efficiency, or keeping up with industry trends.&nbsp;</span></p></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-4 dnd_area-row-2-force-full-width-section dnd_area-row-2-padding dnd-section"> 
+         <div class="row-fluid "> 
+          <div class="span3 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="3"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-5 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1737446653741" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_widget_1737446653741_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><img src="assets/images/medical-imaging-feature-intelligence.png" loading="lazy" width="180" height="131" style="width: 180px; height: auto; max-width: 100%; margin-left: auto; margin-right: auto; display: block;"></p></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+          <div class="span3 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="3" data-w="3"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-6 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1737446702800" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_widget_1737446702800_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><img src="assets/images/medical-imaging-feature-strategy.png" loading="lazy" width="180" height="126" style="width: 180px; height: auto; max-width: 100%; margin-left: auto; margin-right: auto; display: block;"></p></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+          <div class="span3 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="6" data-w="3"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1737446828557" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_widget_1737446828557_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><img src="assets/images/mistt-feature-market.png" loading="lazy" width="180" height="149" style="width: 180px; height: auto; max-width: 100%; margin-left: auto; margin-right: auto; display: block;"></p></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+          <div class="span3 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="9" data-w="3"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1737446886455" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_widget_1737446886455_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><img src="assets/images/mistt-feature-insights.png" loading="lazy" width="150" height="146" style="width: 150px; height: auto; max-width: 100%; margin-left: auto; margin-right: auto; display: block;"></p></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-9 dnd-section dnd_area-row-3-padding"> 
+         <div class="row-fluid "> 
+          <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1737456504712" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_widget_1737456504712_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="text-align: center;"><img src="assets/images/medical-imaging-overview.png" loading="lazy" width="1200" height="560" style="width: 1200px; height: auto; max-width: 100%; margin-left: auto; margin-right: auto; display: block;"></p></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-section dnd_area-row-4-background-layers dnd_area-row-4-force-full-width-section dnd_area-row-4-background-color dnd_area-row-4-padding"> 
+         <div class="row-fluid "> 
+          <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-12 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1737448062410" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"> 
+               <span id="hs_cos_wrapper_widget_1737448062410_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h3>What Makes Our Tracker Essential</h3></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-13 dnd-section"> 
+         <div class="row-fluid "> 
+          <div class="span6 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="6"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-14 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1737447875564" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_widget_1737447875564_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong><span style="font-size: 14px;">Deep Product Intelligence You Can Act On</span></strong></span></p> <p style="text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Get comprehensive visibility into medical imaging therapy devices across every major modality—MRI, CT, ultrasound, PET, and hybrid imaging systems. Our database goes beyond basic specifications to deliver:</span></p> 
+                <ul> 
+                 <li style="text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Regulatory insights</strong> that help you navigate approval pathways</span></li> 
+                 <li style="text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Clinical application mapping</strong> showing real-world therapy uses in surgical planning, treatment monitoring, and disease management</span></li> 
+                 <li style="text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Technology differentiation analysis</strong> that highlights what sets products apart</span></li> 
+                </ul></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+          <div class="span6 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="6" data-w="6"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-15 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget widget_1763055742609-flexbox-positioning dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1763055742609" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"> 
+               <span id="hs_cos_wrapper_widget_1763055742609_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><img src="assets/images/medical-imaging-product.png" class="hs-image-widget " style="max-width: 100%; height: auto;" alt="Product" title="Product" loading="lazy"></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-16 dnd_area-row-6-vertical-alignment dnd-section"> 
+         <div class="row-fluid "> 
+          <div class="span6 widget-span widget-type-cell cell_1763055835693-vertical-alignment dnd-column" style="" data-widget-type="cell" data-x="0" data-w="6"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-17 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget widget_1763055835146-flexbox-positioning dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1763055835146" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"> 
+               <span id="hs_cos_wrapper_widget_1763055835146_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><img src="assets/images/medical-imaging-product-type.png" class="hs-image-widget " style="max-width: 100%; height: auto;" alt="Product-type" title="Product-type" loading="lazy"></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+          <div class="span6 widget-span widget-type-cell dnd-column cell_17374483217682-vertical-alignment" style="" data-widget-type="cell" data-x="6" data-w="6"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-18 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_module_17374483217685" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_module_17374483217685_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span style="font-family: Arial, Helvetica, sans-serif;"><strong><span style="font-size: 14px;">Competitive Landscape That Keeps You Ahead</span></strong></span></p> <p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Understanding your competition isn't just about knowing who they are—it's about understanding where the market is heading. Track the moves that matter:</span></p> 
+                <ul> 
+                 <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Key partnerships, mergers, and acquisitions reshaping the imaging therapy ecosystem</span></li> 
+                 <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Regional expansion strategies and clinical focus areas of major players</span></li> 
+                 <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Real-time benchmarking against competitors through continuous product and pipeline updates</span></li> 
+                </ul></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-19 dnd-section"> 
+         <div class="row-fluid "> 
+          <div class="span6 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="6"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-20 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_module_17374485784685" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_module_17374485784685_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><span style="font-family: Arial, Helvetica, sans-serif;"><strong><span style="font-size: 14px;">Strategic Market Insights for Market Sizing and Forecasting</span></strong></span></p> <p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Make confident projections backed by comprehensive data:</span></p> 
+                <ul> 
+                 <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Identify the fastest-growing imaging therapy segments and regional investment hotspots</span></li> 
+                 <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Track innovation cycles, AI integration patterns, and next-generation imaging modalities</span></li> 
+                 <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Build accurate market sizing and forecasting models with trend analytics</span></li> 
+                 <li><span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Understand market entry dynamics, regulatory landscapes, and reimbursement trends</span></li> 
+                </ul></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+          <div class="span6 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="6" data-w="6"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-21 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget widget_1763055868888-flexbox-positioning dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1763055868888" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"> 
+               <span id="hs_cos_wrapper_widget_1763055868888_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><img src="assets/images/medical-imaging-product-count.png" class="hs-image-widget " style="max-width: 100%; height: auto;" alt="Product count" title="Product count" loading="lazy"></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-22 dnd-section dnd_area-row-8-force-full-width-section dnd_area-row-8-background-layers dnd_area-row-8-padding dnd_area-row-8-background-color"> 
+         <div class="row-fluid "> 
+          <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-23 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_module_1763054811214" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"> 
+               <span id="hs_cos_wrapper_module_1763054811214_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h3>Get Started with Precision Market Intelligence</h3></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-24 dnd-section dnd_area-row-9-padding dnd_area-row-9-force-full-width-section dnd_area-row-9-vertical-alignment"> 
+         <div class="row-fluid "> 
+          <div class="span6 widget-span widget-type-cell cell_1737446407618-padding dnd-column cell_1737446407618-vertical-alignment" style="" data-widget-type="cell" data-x="0" data-w="6"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-25 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1757426464394" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"> 
+               <span id="hs_cos_wrapper_widget_1757426464394_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="form"> 
+                <a class="medical-imaging-demo-button" href="https://forms.cloud.microsoft/pages/responsepage.aspx?id=fih9DzozwE6qFL9euqk7DZ9WRpn6vsZHm6yI1vDhiH1UMFdVSkdZUEVSVUdHR0ZPUDVBQUJHVDA2Wi4u&amp;route=shorturl" target="_blank" rel="noopener">Request a Demo for Your Team</a> </span> 
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+          <div class="span6 widget-span widget-type-cell cell_1763054925264-vertical-alignment cell_1763054925264-padding dnd-column" style="" data-widget-type="cell" data-x="6" data-w="6"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-26 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1763054937213" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_widget_1763054937213_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><img src="assets/images/medical-imaging-insight.png" loading="lazy" width="500" height="496" style="width: 500px; height: auto; max-width: 100%;"></p></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-27 dnd-section dnd_area-row-10-background-layers dnd_area-row-10-background-color dnd_area-row-10-padding dnd_area-row-10-force-full-width-section"> 
+         <div class="row-fluid "> 
+          <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-28 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_module_17374486879004" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"> 
+               <span id="hs_cos_wrapper_module_17374486879004_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h3>Why Leading Teams Choose BIS Research</h3></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-29 dnd-section"> 
+         <div class="row-fluid "> 
+          <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-30 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_module_17374487178915" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_module_17374487178915_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="font-size: 14px; text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong>Data That Goes Deeper</strong></span><br><span style="font-family: Arial, Helvetica, sans-serif;">Our medical imaging therapy database aggregates global datasets from manufacturers, regulatory bodies, and clinical registries—giving you a complete market picture you won't find elsewhere.</span></p> <p style="font-size: 14px; text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong>Insights That Work</strong></span><br><span style="font-family: Arial, Helvetica, sans-serif;">Intuitive dashboards transform complex data into clear trend comparisons, product mappings, and opportunity forecasts that directly support your decision-making.</span></p> <p style="font-size: 14px; text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong>Intelligence That Stays Current</strong></span><br><span style="font-family: Arial, Helvetica, sans-serif;">The medical imaging market doesn't stand still, and neither do we. Continuous updates keep you informed on new product launches, clinical trials, and technology shifts as they happen.</span></p></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-31 dnd-section"> 
+         <div class="row-fluid "> 
+          <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-32 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget widget_1763055950188-flexbox-positioning dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1763055950188" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"> 
+               <span id="hs_cos_wrapper_widget_1763055950188_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><img src="assets/images/medical-imaging-company.png" class="hs-image-widget " style="max-width: 100%; height: auto;" alt="by-company" title="by-company" loading="lazy"></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-33 dnd_area-row-13-background-layers dnd_area-row-13-padding dnd_area-row-13-background-color dnd-section dnd_area-row-13-force-full-width-section"> 
+         <div class="row-fluid "> 
+          <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-34 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_module_1737540330833" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"> 
+               <span id="hs_cos_wrapper_module_1737540330833_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_header" style="" data-hs-cos-general-type="widget" data-hs-cos-type="header"><h3>Who Benefits from the Tracker</h3></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-35 dnd-section"> 
+         <div class="row-fluid "> 
+          <div class="span6 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="6"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-36 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_module_17375403478802" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_module_17375403478802_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="font-size: 14px; text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong>MedTech Companies</strong></span><br><span style="font-family: Arial, Helvetica, sans-serif;">Discover untapped opportunities in imaging innovation and validate your product development roadmap with competitive intelligence.</span></p> <p style="font-size: 14px; text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong>Investors</strong></span><br><span style="font-family: Arial, Helvetica, sans-serif;">Evaluate high-growth therapy categories with confidence, backed by comprehensive market sizing and forecasting data.</span></p> <p style="font-size: 14px; text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong>Consultants</strong></span><br><span style="font-family: Arial, Helvetica, sans-serif;">Deliver exceptional value to clients with authoritative insights on imaging technology trends and market dynamics.</span></p></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+          <div class="span6 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="6" data-w="6"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-37 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_module_17375403478804" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_module_17375403478804_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p><img src="assets/images/medical-imaging-summary.png" loading="lazy" width="526" height="266"></p></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-38 dnd-section"> 
+         <div class="row-fluid "> 
+          <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-39 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1763055388461" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_widget_1763055388461_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="text">Ready to Elevate Your Market Strategy?</span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-40 dnd-section"> 
+         <div class="row-fluid "> 
+          <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-41 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_module_17375432154555" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_module_17375432154555_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="font-size: 14px; text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif;">In a market where innovation accelerates daily, having the right intelligence isn't just an advantage—it's essential. The <strong>Medical Imaging Therapy Tracker</strong> delivers the clarity and confidence you need to make impactful, data-driven decisions.</span></p></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-42 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget widget_1763055493829-flexbox-positioning dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1763055493829" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"> 
+               <a class="hs-button" href="https://calendly.com/bis-research/market-entry-strategy?hsCtaAttrib=188713178019&amp;month=2026-08" id="hs-button_widget_1763055493829" target="_blank" rel="noopener "> Schedule A Demo </a> 
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-43 dnd_area-row-17-padding dnd_area-row-17-background-color dnd-section dnd_area-row-17-background-layers"> 
+         <div class="row-fluid "> 
+          <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-44 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_module_17630556179644" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_module_17630556179644_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="font-size: 20px; text-align: center;"><span style="text-decoration: underline;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong>About BIS Research</strong></span></span></p> <p style="font-size: 14px; text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif;">BIS Research is a global leader in market intelligence and emerging technology research, specializing in MedTech, life sciences, advanced materials, and deep technology domains. We help organizations navigate complex markets with confidence through our robust portfolio of syndicated databases, custom studies, and forecasting tools.</span></p> <p style="font-size: 14px; text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif;">Our mission is simple: empower strategic decision-making with data you can trust and insights you can act on.</span></p> <p style="font-size: 14px; text-align: justify;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong>Discover how our proprietary databases and expert insights can transform your growth strategy.</strong></span></p></span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+        <div class="row-fluid-wrapper row-depth-1 row-number-45 dnd-section"> 
+         <div class="row-fluid "> 
+          <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12"> 
+           <div class="row-fluid-wrapper row-depth-1 row-number-46 dnd-row"> 
+            <div class="row-fluid "> 
+             <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12"> 
+              <div id="hs_cos_wrapper_widget_1737456656665" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+               <span id="hs_cos_wrapper_widget_1737456656665_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="text">BIS Research's MIS Therapy Tracker -&nbsp; Your Partner for Strategic Insights for MedTech Excellence.</span>
+              </div> 
+             </div>
+             <!--end widget-span --> 
+            </div>
+            <!--end row--> 
+           </div>
+           <!--end row-wrapper --> 
+          </div>
+          <!--end widget-span --> 
+         </div>
+         <!--end row--> 
+        </div>
+        <!--end row-wrapper --> 
+       </div>
+       <!--end widget-span --> 
+      </div> 
+     </div> 
+    </div> 
+   </main> 
+   <div data-global-resource-path="BISResearch_June2020/templates/partials/footer.html">
+    <footer class="footer"> 
+     <div class="footer-top"> 
+      <div class="footer__container"> 
+       <div class="footer__main"> 
+        <div class="footer col1"> 
+         <div class="footer-logo"> 
+          <div id="hs_cos_wrapper_logo_image" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"> 
+           <span id="hs_cos_wrapper_logo_image_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><a href="https://bisresearch.com/" target="_parent" id="hs-link-logo_image_" style="border-width:0px;border:0px;"><img src="assets/images/bis-logo-inverse.png" class="hs-image-widget " style="max-width: 100%; height: auto;" alt="BIS Research Logo" title="BIS Research Logo"></a></span>
+          </div> 
+          <div id="hs_cos_wrapper_footer_block11" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+           <span id="hs_cos_wrapper_footer_block11_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Think Disruption. Think <br> Emerging Technologies.</p> <p>Collaborate with BIS Research to scan, analyse, and predict the future</p></span>
+          </div> 
+         </div> 
+        </div> 
+        <div class="footer col2"> 
+         <span id="hs_cos_wrapper_footer_menu" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu">
+          <div id="hs_menu_wrapper_footer_menu" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="31173529025" aria-label="Navigation Menu"> 
+           <ul role="menu"> 
+            <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="../../../com/bisresearch/info/index.html" aria-haspopup="true" aria-expanded="false" role="menuitem">About</a> 
+             <ul role="menu" class="hs-menu-children-wrapper"> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/about-us" role="menuitem">About Us</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/career" role="menuitem">Career</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/terms-of-service" role="menuitem">Terms of Service</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/privacy-policy-cookie-restriction-mode" role="menuitem">Privacy Policy</a></li> 
+             </ul></li> 
+            <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="../../../com/bisresearch/info/index.html" aria-haspopup="true" aria-expanded="false" role="menuitem">OUR OFFERINGS</a> 
+             <ul role="menu" class="hs-menu-children-wrapper"> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/market-research-reports" role="menuitem">Market Research Reports</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/our-offerings/custom-research" role="menuitem">Custom Reports</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/our-offerings/subscriptions" role="menuitem">Subscriptions</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="market-entry-strategy.html" role="menuitem">Market Entry Strategy</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="in-depth-interview-by-bisresearch.html" role="menuitem">Expert Interviews</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/our-offerings/extended-teams" role="menuitem">Extended Teams</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/our-offerings/other-research-offerings" role="menuitem">Other Offerings</a></li> 
+             </ul></li> 
+            <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="../../../com/bisresearch/info/index.html" aria-haspopup="true" aria-expanded="false" role="menuitem">RESOURCES</a> 
+             <ul role="menu" class="hs-menu-children-wrapper"> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/insights" role="menuitem">Blog</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/news" role="menuitem">News</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/video-list" role="menuitem">Videos</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/analyst-notes" role="menuitem">Analyst Notes</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/white-papers.html" role="menuitem">White Papers</a></li> 
+              <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://bisresearch.com/webinars" role="menuitem">Webinars and Events</a></li> 
+             </ul></li> 
+           </ul> 
+          </div></span> 
+        </div> 
+        <div class="footer col3"> 
+         <div id="hs_cos_wrapper_contact_details" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+          <span id="hs_cos_wrapper_contact_details_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><h4>GET IN TOUCH</h4> <p> <i class="sprite sprite-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +1-510-404-8135<br> <i class="sprite sprite-email"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hello@bisresearch.com<br> </p> 
+           <ul style="line-height:15px;"> 
+            <li style="list-style-type:none; "> <a href="https://bisresearch.com/contact-us">Contact us</a></li> 
+           </ul></span>
+         </div> 
+         <div class="cms-row"> 
+          <div class="col-md-2 social"> 
+           <a href="https://www.linkedin.com/company/bis-research" target="_blank"><i class="sprite sprite-facebook"></i></a>&nbsp;&nbsp;&nbsp; 
+           <a href="https://twitter.com/BISResearch" target="_blank"><i class="sprite sprite-twitter"></i></a>&nbsp;&nbsp;&nbsp; 
+           <i class="sprite sprite-linkedin"></i> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="bottom-footer"> 
+      <div class="footer__container"> 
+       <div class="footer__copyright"> 
+        <div class="cms-row"> 
+         <div class="bottom-col1"> 
+          <div id="hs_cos_wrapper_footer_copyright_text" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+           <span id="hs_cos_wrapper_footer_copyright_text_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="text">Copyright © 2026, BIS Research Inc. All Rights Reserved.</span>
+          </div> 
+         </div> 
+         <div class="bottom-col2"> 
+          <div id="hs_cos_wrapper_footer_block11" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+           <span id="hs_cos_wrapper_footer_block11_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><a href="https://bisresearch.com/terms-of-service" class="Copyright-2019-BI">Terms of Service</a>&nbsp;&nbsp; <a href="https://bisresearch.com/privacy-policy-cookie-restriction-mode" class="Copyright-2019-BI">Privacy Policy</a></span>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </footer> 
+    <button type="button" id="back_to_top" class="scroll-top"><i class="fa fa-chevron-up"></i></button>
+   </div> 
+  </div> 
+  <script src="assets/js/template-main.min.js"></script> 
+  <script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script> 
+  <!--[if lte IE 8]>
+    <![endif]--> 
+  <script type="text/plain">
+        var options = {
+            portalId: '6369012',
+            formId: 'edf8ab41-ce6d-4dc4-9173-d293da519192',
+            formInstanceId: '7545',
+            
+            pageId: '185222221753',
+            
+            region: 'na1',
+            
+            
+            
+            
+            pageName: "Medical Imaging Therapy Tracker - database to empower decision-makers",
+            
+            
+            redirectUrl: "http:\/\/www.google.com",
+            
+            
+            
+            
+            
+            deactivateSmartForm: true,
+            
+            css: '',
+            target: '#hs_form_target_widget_1757426464394',
+            
+            
+            
+            
+            
+            
+            
+            contentType: "landing-page",
+            
+            
+            
+            
+            useDraft: "true",
+            
+            
+            formData: {
+                cssClass: 'hs-form stacked hs-custom-form'
+            }
+        };
+
+        options.getExtraMetaDataBeforeSubmit = function() {
+            var metadata = {};
+            
+
+            if (hbspt.targetedContentMetadata) {
+                var count = hbspt.targetedContentMetadata.length;
+                var targetedContentData = [];
+                for (var i = 0; i < count; i++) {
+                    var tc = hbspt.targetedContentMetadata[i];
+                     if ( tc.length !== 3) {
+                        continue;
+                     }
+                     targetedContentData.push({
+                        definitionId: tc[0],
+                        criterionId: tc[1],
+                        smartTypeId: tc[2]
+                     });
+                }
+                metadata["targetedContentMetadata"] = JSON.stringify(targetedContentData);
+            }
+
+            return metadata;
+        };
+
+        hbspt.forms.create(options);
+    </script> 
+  <!-- Start of HubSpot Analytics Code Not Loaded --> 
+  <script>
+(function(){
+  const timeoutEvent = document.createEvent('CustomEvent');
+  timeoutEvent.initCustomEvent("content-analytics-code-not-loaded", true, true, { detail: "Not loaded in preview mode" });
+  window.dispatchEvent(timeoutEvent);
+})();
+</script> 
+  <!-- End of HubSpot Analytics Code Not Loaded --> 
+  <script type="text/javascript">
+var hsVars = {
+    render_id: "55d774f3-ffff-4f82-a10d-e9da3683f07e",
+    ticks: 1786428734824,
+    page_id: 185222221753,
+    
+    content_group_id: 0,
+    portal_id: 6369012,
+    app_hs_base_url: null,
+    cp_hs_base_url: null,
+    language: "en",
+    analytics_page_type: "landing-page",
+    scp_content_type: "",
+    
+    analytics_page_id: "185222221753",
+    category_id: 1,
+    folder_id: 0,
+    is_hubspot_user: null
+}
+</script> 
+  <script src="assets/js/lazy-microsoft-form.js"></script>
+  <script>document.querySelectorAll('a').forEach(function (link) { var label = link.textContent.replace(/\s+/g, ' ').trim(); if (label === 'Log In' || label === 'Login') link.href = 'https://www.insightmonk.com/sign_in'; if (label === 'Register') link.href = 'https://www.insightmonk.com/signup'; if (label === 'Contact us') link.href = 'https://bisresearch.com/contact-us'; });</script>
+  <script src="assets/js/open-links-new-window.js"></script>
+ </body>
+</html>
