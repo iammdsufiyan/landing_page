@@ -4,6 +4,21 @@
       video.controls = true;
     });
 
+    // Footer column headings are labels, not destination links.
+    document.querySelectorAll('.footer .hs-menu-wrapper > ul > li > a').forEach(function (link) {
+      var label = link.textContent.replace(/\s+/g, ' ').trim().toLowerCase();
+      if (label === 'about' || label === 'our offerings' || label === 'resources') {
+        link.removeAttribute('href');
+        link.removeAttribute('target');
+        link.removeAttribute('rel');
+        link.removeAttribute('role');
+        link.removeAttribute('aria-haspopup');
+        link.removeAttribute('aria-expanded');
+        link.setAttribute('aria-disabled', 'true');
+        link.setAttribute('tabindex', '-1');
+      }
+    });
+
     document.querySelectorAll('a[href]').forEach(function (link) {
       var href = (link.getAttribute('href') || '').trim();
       if (!href || href.charAt(0) === '#' || /^javascript:/i.test(href)) return;
