@@ -542,71 +542,16 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   }
 }
 </style>
-  <!--  Added by GoogleAnalytics integration -->
-  <script>
-var _hsp = window._hsp = window._hsp || [];
-_hsp.push(['addPrivacyConsentListener', function(consent) { if (consent.allowed || (consent.categories && consent.categories.analytics)) {
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create','UA-48860739-1','auto');
-  ga('send','pageview');
-}}]);
-</script>
-  <!-- /Added by GoogleAnalytics integration -->
-  <!--  Added by GoogleAnalytics4 integration -->
-  <script>
-var _hsp = window._hsp = window._hsp || [];
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-
-var useGoogleConsentModeV2 = true;
-var waitForUpdateMillis = 1000;
 
 
-if (!window._hsGoogleConsentRunOnce) {
-  window._hsGoogleConsentRunOnce = true;
-
-  gtag('consent', 'default', {
-    'ad_storage': 'denied',
-    'analytics_storage': 'denied',
-    'ad_user_data': 'denied',
-    'ad_personalization': 'denied',
-    'wait_for_update': waitForUpdateMillis
-  });
-
-  if (useGoogleConsentModeV2) {
-    _hsp.push(['useGoogleConsentModeV2'])
-  } else {
-    _hsp.push(['addPrivacyConsentListener', function(consent){
-      var hasAnalyticsConsent = consent && (consent.allowed || (consent.categories && consent.categories.analytics));
-      var hasAdsConsent = consent && (consent.allowed || (consent.categories && consent.categories.advertisement));
-
-      gtag('consent', 'update', {
-        'ad_storage': hasAdsConsent ? 'granted' : 'denied',
-        'analytics_storage': hasAnalyticsConsent ? 'granted' : 'denied',
-        'ad_user_data': hasAdsConsent ? 'granted' : 'denied',
-        'ad_personalization': hasAdsConsent ? 'granted' : 'denied'
-      });
-    }]);
-  }
-}
-
-gtag('js', new Date());
-gtag('set', 'developer_id.dZTQ1Zm', true);
-gtag('config', 'G-1XEWNK2HGD');
-</script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1XEWNK2HGD"></script>
-  <!-- /Added by GoogleAnalytics4 integration -->
   <link rel="canonical" href="https://offerings.bisresearch.com/deeptech-commercialization-fundability-intelligence">
-  <meta property="og:image" content="assets/images/bis-logo-social.jpg">
+  <meta property="og:image" content="https://offerings.bisresearch.com/assets/images/bis-logo-social.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="1200">
   <meta property="og:image:alt" content="BIS Research ">
-  <meta name="twitter:image" content="assets/images/bis-logo-social.jpg">
+  <meta name="twitter:image" content="https://offerings.bisresearch.com/assets/images/bis-logo-social.jpg">
   <meta name="twitter:image:alt" content="BIS Research ">
-  <meta property="og:url" content="https://landing-page-eight-alpha-68.vercel.app/deeptech-commercialization-fundability-intelligence.html">
+  <meta property="og:url" content="https://offerings.bisresearch.com/deeptech-commercialization-fundability-intelligence">
   <meta name="twitter:card" content="summary_large_image">
   <meta http-equiv="content-language" content="en">
   <meta name="generator" content="Static HTML">
